@@ -1,0 +1,37 @@
+{
+  "name": "kaasch@react-golang-server",
+  "version": "1.0.0",
+  "description": "react frontend dev environment for golang server",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack serve --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaasch-co/react-golang-server.git"
+  },
+  "author": "kaasch",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/react": "^18.3.6",
+    "@types/react-dom": "^18.3.0",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
