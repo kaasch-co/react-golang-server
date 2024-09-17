@@ -9,6 +9,13 @@ This is my first public repo, and it is mostly here for documenting and assistin
 *   Node   - version > 20.17.0
 *   npm    - version > 10.8.3
 
+**What's happenin:**
+*  Golang's Gin Server/API package by gin-gonic
+*  Node.js to expand web development tooling
+*  Meta's React framework used standalone
+*  Babel transpiler for React syntax with jsx & tsx
+*  Webpack for configuring babel, loaders and bundling
+
 #### Setup environment:
 1.  Clone repo
 2.  run `npm i` in ./client
@@ -27,6 +34,8 @@ Use `go build .` in ./server to build an executable binary
 Use `source build.sh` in ./ to build.
 - This will first create the webpack bundle, then move the bundle files to the server resource directory, and then it builds the go application, producing server.bin
 - Alternatively use `source build-frontend.sh` to build only frontend.
+
+I should probably also mention that Gin's templating delimiter is changed to `{[{` and `)])` to not fuck up compatibility with webpack 
   
 ---
 ### More coming...
